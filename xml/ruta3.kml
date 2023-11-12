@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <Document>
+        <Placemark>
+            <name>Islas del Titicaca</name>
+            <LineString>
+                <extrude>1</extrude>
+                <tessellate>1</tessellate>
+                <coordinates>
+					-70.01444964546768,-15.835032296645837,3819.06
+					-69.89603700471716,-15.732675696538209,3816.97
+					-69.68624085159898,-15.770604349740433,3943.05
+					-69.71836657535265,-15.66427002195403,4102.39
+				</coordinates>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LineString>
+            <Style id='lineaRoja'>
+                <LineStyle>
+                    <color>#ff0000ff</color>
+                    <width>5</width>
+                </LineStyle>
+            </Style>
+        </Placemark>
+    </Document>
+</kml>

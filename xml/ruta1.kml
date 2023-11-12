@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <Document>
+        <Placemark>
+            <name>Cusco</name>
+            <LineString>
+                <extrude>1</extrude>
+                <tessellate>1</tessellate>
+                <coordinates>
+					-71.98268201385343,-13.520850734845185,3410.37
+					-71.97873383105876,-13.516573771916507,3403.16
+					-71.98276787613783,-13.509062864301848,3580.91
+					-71.97522315999254,-13.520069582584924,3387.8
+				</coordinates>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LineString>
+            <Style id='lineaRoja'>
+                <LineStyle>
+                    <color>#ff0000ff</color>
+                    <width>5</width>
+                </LineStyle>
+            </Style>
+        </Placemark>
+    </Document>
+</kml>

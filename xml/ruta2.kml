@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <Document>
+        <Placemark>
+            <name>Machu Picchu</name>
+            <LineString>
+                <extrude>1</extrude>
+                <tessellate>1</tessellate>
+                <coordinates>
+					-72.54300386229382,-13.165913249739114,2433.07
+					-72.54473116383839,-13.163980558076373,2439.82
+					-72.54531052971046,-13.163531345883609,2464.3
+					-72.54556727966666,-13.163039224674163,2466.49
+				</coordinates>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LineString>
+            <Style id='lineaRoja'>
+                <LineStyle>
+                    <color>#ff0000ff</color>
+                    <width>5</width>
+                </LineStyle>
+            </Style>
+        </Placemark>
+    </Document>
+</kml>

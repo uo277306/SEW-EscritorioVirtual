@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rutas SYSTEM "rutas.dtd">
+<rutas>
+    <ruta nombre="Cusco" tipo="Arquitectura y monumentos" medio-transporte="andando"
+        duracion="3 días"
+        lugar-inicio="Plaza de Armas" direccion-inicio="Del Medio 123, Cusco 08000, Peru"
+        coordenadas-inicio="-13.516573771916507, -71.97873383105876"
+        recomendacion="8">
+        <agencia>Sin agencia</agencia>
+        <descripcion>Visitar hoy esta ciudad colonial declarada Patrimonio de la Humanidad es
+            caminar por un legado tangible de un imperio fascinante.</descripcion>
+        <personas-adecuadas>1-5</personas-adecuadas>
+        <referencias>
+            <referencia>https://www.viajeroscallejeros.com/lugares-que-visitar-en-cusco/</referencia>
+            <referencia>https://www.viajandoporelmundomundial.com/que-ver-en-cuzco/</referencia>
+            <referencia>
+                https://www.tripadvisor.es/Attractions-g294314-Activities-Cusco_Cusco_Region.html</referencia>
+        </referencias>
+        <hitos>
+            <hito nombre="Plaza de Armas" coordenadas="-13.516573771916507, -71.97873383105876"
+                distancia-hito-anterior="0km">
+                <galeria-fotos>
+                    <foto>plaza-de-armas.jpeg</foto>
+                </galeria-fotos>
+                <galeria-videos>
+                </galeria-videos>
+            </hito>
+            <hito nombre="Muyuq Marka" coordenadas="-13.509062864301848, -71.98276787613783"
+                distancia-hito-anterior="1.6km">
+                <galeria-fotos>
+                    <foto>muyuq-maya.peg</foto>
+                </galeria-fotos>
+                <galeria-videos>
+                </galeria-videos>
+            </hito>
+            <hito nombre="Qorikancha" coordenadas="-13.520069582584924, -71.97522315999254"
+                distancia-hito-anterior="2.0km">
+                <galeria-fotos>
+                    <foto>qorikancha.jpeg</foto>
+                </galeria-fotos>
+                <galeria-videos>
+                </galeria-videos>
+            </hito>
+        </hitos>
+    </ruta>
+    <ruta nombre="Machu Picchu" tipo="Paisajística" medio-transporte="andando"
+        duracion="2 horas"
+        lugar-inicio="Sanctuary Lodge, A Belmond Hotel, Machu Picchu"
+        direccion-inicio="Carretera Hiram Bingham Km 7.5, Aguas Calientes 08680, Peru"
+        coordenadas-inicio="-13.516573771916507, -71.97873383105876"
+        recomendacion="6">
+        <agencia>boletomachupicchu</agencia>
+        <descripcion>Este yacimiento arqueológico es uno de los más misteriosos e indescifrables de
+            la América Precolombina. Hay muchas preguntas sobre Machu Picchu y pocas respuestas, y
+            quizá por ello atrae tanto.</descripcion>
+        <personas-adecuadas>1-5</personas-adecuadas>
+        <referencias>
+            <referencia>https://www.boletomachupicchu.com/circuitos-recorrer-machu-picchu/</referencia>
+            <referencia>https://www.viviendodeviaje.com/machu-picchu/</referencia>
+            <referencia>https://www.machupicchu.gob.pe/circuitos-establecidos/</referencia>
+        </referencias>
+        <hitos>
+            <hito nombre="Templo del Sol" coordenadas="-13.163980558076373, -72.54473116383839"
+                distancia-hito-anterior="0m">
+                <galeria-fotos>
+                    <foto>templo-del-sol.jpeg</foto>
+                </galeria-fotos>
+                <galeria-videos>
+                </galeria-videos>
+            </hito>
+            <hito nombre="Plaza Sagrada" coordenadas="-13.163531345883609, -72.54531052971046"
+                distancia-hito-anterior="400m">
+                <galeria-fotos>
+                    <foto>plaza-sagrada.peg</foto>
+                </galeria-fotos>
+                <galeria-videos>
+                </galeria-videos>
+            </hito>
+            <hito nombre="Intihuatana" coordenadas="-13.163039224674163, -72.54556727966666"
+                distancia-hito-anterior="250m">
+                <galeria-fotos>
+                    <foto>intihuatana.jpeg</foto>
+                </galeria-fotos>
+                <galeria-videos>
+                </galeria-videos>
+            </hito>
+        </hitos>
+    </ruta>
+    <ruta nombre="Islas del Titicaca" tipo="Paisajística" medio-transporte="lancha"
+        duracion="1 día"
+        lugar-inicio="Puno"
+        direccion-inicio="5X7P+X65, Unnamed Road, Puno 21001, Peru"
+        coordenadas-inicio="-15.83481652922172, -70.01445231107134"
+        recomendacion="10">
+        <agencia>boletomachupicchu</agencia>
+        <descripcion>El Lago Titicaca, cuenta con islas que mantienen vigente sus tradiciones pre
+            colombinas. Existen tres importantes islas que son las más preguntadas por los viajeros
+            que no le tienen miedo a las alturas.</descripcion>
+        <personas-adecuadas>1-3</personas-adecuadas>
+        <referencias>
+            <referencia>https://www.perurail.com/es/blog/conoce-mas-sobre-las-tres-islas-mas-importantes-del-lago-titicaca/</referencia>
+            <referencia>https://es.wikipedia.org/wiki/Islas_flotantes_de_los_uros</referencia>
+            <referencia>https://www.elconfidencial.com/viajes/2021-04-28/las-sorprendentes-islas-flotantes-del-lago-titicaca_3051255/</referencia>
+        </referencias>
+        <hitos>
+            <hito nombre="Isla flotante de los Uros"
+                coordenadas="-15.732675696538209, -69.89603700471716"
+                distancia-hito-anterior="0km">
+                <galeria-fotos>
+                    <foto>isla-uros.jpeg</foto>
+                </galeria-fotos>
+                <galeria-videos>
+                </galeria-videos>
+            </hito>
+            <hito nombre="Isla Taquile" coordenadas="-15.770604349740433, -69.68624085159898"
+                distancia-hito-anterior="7.5km">
+                <galeria-fotos>
+                    <foto>taquile.peg</foto>
+                </galeria-fotos>
+                <galeria-videos>
+                </galeria-videos>
+            </hito>
+            <hito nombre="Isla Amantaní" coordenadas="-15.66427002195403, -69.71836657535265"
+                distancia-hito-anterior="4km">
+                <galeria-fotos>
+                    <foto>isla-amantani.jpeg</foto>
+                </galeria-fotos>
+                <galeria-videos>
+                </galeria-videos>
+            </hito>
+        </hitos>
+    </ruta>
+</rutas>

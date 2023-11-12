@@ -1,5 +1,80 @@
 /** Damir Abdrafikov / UO277306 / SEW / 2023-2024 **/
-img {
-  width: 50%;
-  height: auto;
+
+/* Especificidad 0-0-1 */
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1em;
 }
+
+/* Especificidad 0-0-1 */
+h1 {
+  font-size: 2em;
+  font-weight: 900;
+}
+
+/* Especificidad 0-0-1 */
+h2 {
+  font-size: 1.5em;
+  font-weight: 750;
+}
+
+/* Especificidad 0-0-1 */
+h3 {
+  font-size: 1.17em;
+  font-weight: 600;
+}
+
+/* Especificidad 0-0-1 */
+h4 {
+  font-size: 1em;
+}
+
+/* Especificidad 0-0-1 */
+h5,
+h6,
+p {
+  font-size: 0.8em;
+}
+
+header {
+  background-color: #385e72;
+  color: #ffffff;
+}
+
+/* Especificidad 0-0-3 */
+header > nav > a {
+  color: #d9e4ec;
+}
+
+/* Especificidad 0-0-1 */
+a {
+  color: #0d4563;
+}
+
+/* Especificidad 0-1-1 */
+a:focus,
+a:hover {
+  color: #6aabd2;
+}
+
+/*************************************/
+
+/* Temporal */
+/* 
+#D9E4EC
+#B7CFDC
+#6AABD2
+#385E72 
+*/
+
+/* Intentar hacer que la herencia este lo mayor posible, por ejemplo */
+/* body {
+  color: red;
+  background-color: white;
+} */
+/* En este caso h1 adquire por herencia color de body pero saltará warning en el css validator
+para arreglarlo en vez de copiar el color para no repetir código explicar con un comentario lo que pasa
+*/
+/* h1 {
+  background-color: gray;
+} */
