@@ -82,7 +82,7 @@ ol li ol li {
 
 /* Especificidad 0-1-2 */
 ul li:nth-child(3) {
-  text-decoration: underline;
+  font-weight: bold;
 }
 
 /* Especificidad 0-0-1 */
