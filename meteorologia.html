@@ -4,11 +4,15 @@
     <meta charset="UTF-8" />
     <title>Escritorio Virtual - Meteorología</title>
     <meta name="author" content="Damir Abdrafikov" />
-    <meta name="description" content="Página meteorología del escritorio virtual" />
+    <meta
+      name="description"
+      content="Página meteorología del escritorio virtual"
+    />
     <meta name="keywords" content="meteorologia,escritorio virtual,html" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
     <link rel="icon" type="image/png" href="multimedia/imagenes/favicon.png" />
+    <script src="js/pais.js"></script>
   </head>
   <body>
     <h1>Escritorio Virtual - Meteorología</h1>
@@ -21,6 +25,13 @@
       <a href="viajes.html" accesskey="V" tabindex="6">Viajes</a>
       <a href="juegos.html" accesskey="J" tabindex="7">Juegos</a>
     </nav>
-    <p>En desarrollo</p>
+    <script>
+      const pais = new Pais("Perú", "Lima", 33_720_000);
+      pais.fillAttributes();
+      document.write(`<p>Nombre: ${pais.getNombre()}</p>`);
+      document.write(`<p>Capital: ${pais.getCapital()}</p>`);
+      document.write(pais.getSecondaryInformation());
+      pais.writeCoords();
+    </script>
   </body>
 </html>
