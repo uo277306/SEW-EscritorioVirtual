@@ -15,23 +15,27 @@
     <script src="js/pais.js"></script>
   </head>
   <body>
-    <h1>Escritorio Virtual - Meteorología</h1>
-    <nav>
-      <a href="index.html" accesskey="I" tabindex="1">Inicio</a>
-      <a href="sobremi.html" accesskey="S" tabindex="2">Sobre mí</a>
-      <a href="noticias.html" accesskey="N" tabindex="3">Noticias</a>
-      <a href="agenda.html" accesskey="A" tabindex="4">Agenda</a>
-      <a href="meteorologia.html" accesskey="M" tabindex="5">Meteorología</a>
-      <a href="viajes.html" accesskey="V" tabindex="6">Viajes</a>
-      <a href="juegos.html" accesskey="J" tabindex="7">Juegos</a>
-    </nav>
-    <script>
-      const pais = new Pais("Perú", "Lima", 33_720_000);
-      pais.fillAttributes();
-      document.write(`<p>Nombre: ${pais.getNombre()}</p>`);
-      document.write(`<p>Capital: ${pais.getCapital()}</p>`);
-      document.write(pais.getSecondaryInformation());
-      pais.writeCoords();
-    </script>
+    <header>
+      <h1>Escritorio Virtual</h1>
+      <nav>
+        <a href="index.html" accesskey="I" tabindex="1">Inicio</a>
+        <a href="sobremi.html" accesskey="S" tabindex="2">Sobre mí</a>
+        <a href="noticias.html" accesskey="N" tabindex="3">Noticias</a>
+        <a href="agenda.html" accesskey="A" tabindex="4">Agenda</a>
+        <a href="meteorologia.html" accesskey="M" tabindex="5">Meteorología</a>
+        <a href="viajes.html" accesskey="V" tabindex="6">Viajes</a>
+        <a href="juegos.html" accesskey="J" tabindex="7">Juegos</a>
+      </nav>
+    </header>
+    <main>
+      <script>
+        const pais = new Pais("Perú", "Lima", 33_720_000);
+        pais.fillAttributes();
+        document.write(`<p>Nombre: ${pais.getNombre()}</p>`);
+        document.write(`<p>Capital: ${pais.getCapital()}</p>`);
+        document.write(pais.getSecondaryInformation());
+        pais.writeCoords();
+      </script>
+    </main>
   </body>
 </html>
