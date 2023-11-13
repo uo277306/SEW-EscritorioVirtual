@@ -107,6 +107,7 @@ table tr th[scope="col"] {
 /* Especificidad 0-1-3 */
 table tr th[scope="row"] {
   background-color: #d9e4ec;
+  font-weight: 100;
 }
 
 /* Especificidad 0-0-3 */
