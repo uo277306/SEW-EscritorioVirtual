@@ -28,6 +28,7 @@ h3 {
 header {
   background-color: #385e72;
   color: #ffffff;
+  padding: 1vh 1vw;
 }
 
 /* Especificidad 0-0-3 */
@@ -116,30 +117,16 @@ table tr td {
 /* Especificidad 0-0-1 */
 menu {
   list-style-type: none;
-  display: flex;
   padding: 0;
   margin-bottom: 0;
-  gap: 1em;
 }
 
-/*************************************/
-
-/* Temporal */
-/* 
-#D9E4EC
-#B7CFDC
-#6AABD2
-#385E72 
-*/
-
-/* Intentar hacer que la herencia este lo mayor posible, por ejemplo */
-/* body {
-  color: red;
-  background-color: white;
-} */
-/* En este caso h1 adquire por herencia color de body pero saltará warning en el css validator
-para arreglarlo en vez de copiar el color para no repetir código explicar con un comentario lo que pasa
-*/
-/* h1 {
-  background-color: gray;
-} */
+/* Especificidad 0-0-1 */
+video {
+  max-width: 100%;
+  height: auto;
+}
+/* Especificidad 0-0-1 */
+audio {
+  width: 100%;
+}
