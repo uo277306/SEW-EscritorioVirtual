@@ -48,20 +48,16 @@ menu {
 
 /*
  * NOTA: Este selector está para poder dar estilos al último contenedor
- * de audio y video, pero de la forma en la que está implica que si añadimos 
- * alguna otra section después de esta, los estilos ya no se aplicarán al 
- * elemento correcto.
- * Esto se podría arreglar ahora mismo con el uso de una clase o un id, o 
- * envolviendolo en más elementos "dummy" para aumentar la especificidad sin
- * depender de la condición :last-child.
- * Ninguna de estas soluciones me parece correcta y la mejor solución que veo 
- * es la de usar el selector :has(), pero este aún está en borrador y el 
- * navegador firefox no lo acepta sin habilitar caracteristicas experimentales
- * por ello lo dejamos así sabiendo que si añadimos otra section en el html
- * deberemos volver al css para cambiar este selector.
+ * de audio y video.
+ * El uso del id se podría evitar usando :last-child, pero el uso de esto hace
+ * que haya estilos incorrectos en otras páginas .
+ * La mejor solución que veo es la de usar el selector :has(), pero este aún 
+ * está en borrador y el navegador firefox no lo acepta sin habilitar 
+ * caracteristicas experimentales por ello considero que lo mas sencillo y que
+ * evite mas problemas es usar un id.
  */
-/* Especificidad 0-1-1 */
-section:last-child {
+/* Especificidad 1-0-1 */
+section#multimedia_content {
   display: flex;
   flex-direction: column;
   gap: 20px;
