@@ -93,7 +93,7 @@ class Memoria {
     }
 
     createElements() {
-        const section = document.getElementsByTagName("section")[0];
+        const section = document.querySelector("section");
         this.elements.forEach(element => {
             const article = document.createElement("article");
             article.dataset.element = element.element;

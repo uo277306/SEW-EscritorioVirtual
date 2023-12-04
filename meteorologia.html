@@ -14,6 +14,11 @@
     <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
     <link rel="icon" type="image/png" href="multimedia/imagenes/favicon.png" />
     <script src="js/pais.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous">
+    </script>
   </head>
   <body>
     <header>
@@ -36,7 +41,23 @@
         document.write(`<p>Capital: ${pais.getCapital()}</p>`);
         document.write(pais.getSecondaryInformation());
         pais.writeCoords();
+        pais.getForecast();
       </script>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col" id="dt_txt">Día y hora</th>
+            <th scope="col" id="temp_min">Temp. Mínima</th>
+            <th scope="col" id="temp_max">Temp. Máxima</th>
+            <th scope="col" id="humidity">% Humedad</th>
+            <th scope="col" id="icon">Icono</th>
+            <th scope="col" id="rain">Lluvia</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+        </tbody>
+      </table>
     </main>
   </body>
 </html>

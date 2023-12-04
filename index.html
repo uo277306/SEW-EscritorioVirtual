@@ -10,6 +10,9 @@
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
     <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
     <link rel="icon" type="image/png" href="multimedia/imagenes/favicon.png" />
+    <link rel="icon" type="image/png" href="multimedia/imagenes/favicon.png" />
+    <script src="js/fondo.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
@@ -25,7 +28,10 @@
       </nav>
     </header>
     <main>
-      <p>En desarrollo</p>
     </main>
+    <script>
+      const fondo = new Fondo("Perú", "Lima", [-77.044102302665, -12.044446952545284, 125.92]);
+      fondo.getFondos();
+    </script>
   </body>
 </html>

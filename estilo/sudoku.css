@@ -1,0 +1,62 @@
+/** Damir Abdrafikov / UO277306 / SEW / 2023-2024 **/
+
+/* Especificidad 0-0-1 */
+main {
+  /* TODO not absolute css */
+  width: 300px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+  gap: 0;
+  border: 2px solid black;
+}
+
+/* Especificidad 0-0-1 */
+p {
+  padding: 5px;
+  margin: 0;
+  text-align: center;
+  border: 1px solid gray;
+  color: black;
+  background-color: white;
+
+  transition: background-color 0.2s;
+}
+
+/* Especificidad 0-1-1 */
+p:nth-child(3n) {
+  border-right: 2px solid black;
+}
+
+/* Especificidad 0-1-1 */
+p:nth-child(3n + 1) {
+  border-left: 2px solid black;
+}
+
+/* Especificidad 0-2-1 */
+p:nth-child(n + 19):nth-child(-n + 27),
+p:nth-child(n + 46):nth-child(-n + 54),
+p:nth-child(n + 73):nth-child(-n + 81) {
+  border-bottom: 2px solid black;
+}
+
+/* Especificidad 0-2-1 */
+p:nth-child(n):nth-child(-n + 9),
+p:nth-child(n + 28):nth-child(-n + 36),
+p:nth-child(n + 55):nth-child(-n + 63) {
+  border-top: 2px solid black; 
+}
+
+/* Especificidad 0-2-1 */
+p:hover:not(:is([data-state="blocked"], [data-state="clicked"])) {
+  cursor: pointer;
+  /* Redefinición verificada */
+  background-color: #d9e4ec;
+}
+
+/* Especificidad 0-1-1 */
+p[data-state="clicked"] {
+  /* Redefinición verificada */
+  background-color: #6aabd2;
+}

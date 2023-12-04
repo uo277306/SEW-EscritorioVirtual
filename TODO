@@ -1,1 +1,20 @@
 [] Actualizar Sobre mí para tener un video, audio y enlaces relacionados bien puestos
+
+
+indicar que somos conscientes de que google maps añade error de código al validar
+
+validar tabla sobre mi, creo que falta el header del id de la linea
+
+xml svg de altitud
+
+
+NOTA: Al utilizar jQuery para establecer la imagen de fondo se creará en el documento
+index.html un atributo style que establece el estilo correspondiente para situar la imagen
+como fondo de pantalla de dicho documento html. Esto se corresponde con el funcionamiento
+normal de jQuery y está permitido para este ejercicio.
+
+preguntar si fondo está correcto
+
+sudoku hacer que no tenga tamaños absolutos
+
+quitar jsconfig

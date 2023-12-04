@@ -35,7 +35,7 @@ section article {
 
 /* Especificidad 0-1-2 */
 section article:hover:not(:is([data-state="revealed"], [data-state="flip"])) {
-  color: black;
+  /* Redefinición verificada */
   background-color: #d9e4ec;
   cursor: pointer;
 }

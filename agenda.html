@@ -9,7 +9,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
     <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/agenda.css" />
     <link rel="icon" type="image/png" href="multimedia/imagenes/favicon.png" />
+    <script src="js/agenda.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous">
+    </script>
   </head>
   <body>
     <header>
@@ -25,7 +32,11 @@
       </nav>
     </header>
     <main>
-      <p>En desarrollo</p>
+      <h2>Listado de carreras de este año</h2>
+      <button>Mostrar datos</button>
     </main>
+    <script>
+      const agenda = new Agenda("http://ergast.com/api/f1/current");
+    </script>
   </body>
 </html>
