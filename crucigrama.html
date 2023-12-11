@@ -2,16 +2,21 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <title>Escritorio Virtual - Juegos - Memoria</title>
+    <title>Escritorio Virtual - Juegos - Crucigrama</title>
     <meta name="author" content="Damir Abdrafikov" />
-    <meta name="description" content="Juego memoria del escritorio virtual" />
+    <meta name="description" content="Juego crucigrama del escritorio virtual" />
     <meta name="keywords" content="juegos,escritorio virtual,html" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
     <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
-    <link rel="stylesheet" type="text/css" href="estilo/memoria.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/crucigrama.css" />
     <link rel="icon" type="image/png" href="multimedia/imagenes/favicon.png" />
-    <script src="js/memoria.js"></script>
+    <script src="js/crucigrama.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous">
+    </script>
   </head>
   <body>
     <header>
@@ -31,13 +36,12 @@
       <li><a href="sudoku.html">Sudoku</a></li>
       <li><a href="crucigrama.html">Crucigrama</a></li>
     </menu>
-    <main>
-      <section>
-        <h2>Juego de Memoria</h2>
-      </section>
-    </main>
+
+    <h2>Crucigrama</h2>
+    <main></main>
     <script>
-      const memoria = new Memoria();
+        const crucigrama = new Crucigrama();
+        crucigrama.paintMathword();
     </script>
   </body>
 </html>

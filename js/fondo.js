@@ -21,9 +21,8 @@ class Fondo {
 
                 $("main").css({
                     backgroundImage: `url(${response.photos.photo[i].url_o})`,
-                    backgroundSize: "contain",
+                    backgroundSize: "cover",
                     backgroundRepeat: "no-repeat",
-                    width: "auto",
                     height: "80vh",
                 });
 

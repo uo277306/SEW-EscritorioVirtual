@@ -1,0 +1,41 @@
+/* Especificidad 0-0-1 */
+main {
+  width: 50%;
+  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(11, 1fr);
+  gap: 0;
+  border-collapse: collapse;
+}
+
+/* Especificidad 0-0-1 */
+p {
+  padding: 5px;
+  margin: 0;
+  text-align: center;
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+
+  transition: background-color 0.2s;
+}
+
+/* Especificidad 0-1-1 */
+p[data-state="empty"] {
+  /* Redefinición verificada */
+  background-color: black;
+}
+
+/* Especificidad 0-2-1 */
+p:hover[data-state="clickable"] {
+  cursor: pointer;
+  /* Redefinición verificada */
+  background-color: #d9e4ec;
+}
+
+/* Especificidad 0-1-1 */
+p[data-state="clicked"] {
+  /* Redefinición verificada */
+  background-color: #6aabd2;
+}

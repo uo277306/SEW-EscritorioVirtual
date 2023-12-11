@@ -2,7 +2,6 @@
 
 /* Especificidad 0-0-1 */
 main {
-  /* TODO not absolute css */
   width: 300px;
   height: 300px;
   display: grid;
@@ -49,7 +48,7 @@ p:nth-child(n + 55):nth-child(-n + 63) {
 }
 
 /* Especificidad 0-2-1 */
-p:hover:not(:is([data-state="blocked"], [data-state="clicked"])) {
+p:hover:not(:is([data-state="blocked"], [data-state="clicked"], [data-state="clicked"])) {
   cursor: pointer;
   /* Redefinición verificada */
   background-color: #d9e4ec;
